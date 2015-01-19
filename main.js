@@ -1,0 +1,2 @@
+var anyWord = prompt("Please enter any word");
+alert("You Entered: " + anyWord + "\nThere are " + anyWord.length + " characters in the word." + "\n3rd Character: " + anyWord.charAt(2) + "\nLowerCase: " + anyWord.toLowerCase() + "\nUpperCase: " + anyWord.toUpperCase() + "\nExample: Jimmy likes to use the word \""+ anyWord.toLowerCase() + "\" in his sentences." + "\nSubword: " +    anyWord.substring(1,4));
